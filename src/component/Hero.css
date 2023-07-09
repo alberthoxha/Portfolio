@@ -1,0 +1,54 @@
+.hero {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.hero .content {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.hero h5 {
+  font-size: 4vw;
+  color: black;
+  font-family: var(--ff-primary);
+  margin-top: 5vw;
+  line-height: 6vw;
+}
+
+@media screen and (max-width: 940px) {
+  .hero .content p:nth-child(3) {
+    font-size: 2.6rem;
+  }
+
+  .hero .content p:nth-child(4) {
+    font-size: 1.6rem;
+  }
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .btn-scroll {
+  position: relative;
+  width: 65px;
+  background: #fff;
+
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 6vw;
+  cursor: pointer;
+  transition: ease 0.24s;
+  top: 4vw;
+}
+
+.hero .btn-scroll:hover {
+  box-shadow: 0 4px 0 0 chocolate;
+  top: 3.5vw;
+}
