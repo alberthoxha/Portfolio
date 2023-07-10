@@ -21,7 +21,11 @@ h1 {
   gap: 2vh;
   padding-top: 5vh;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(12vw, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(13vw, 1fr));
+}
+.card.featured {
+  grid-row: span 2;
+  grid-column: span 2;
 }
 a {
   text-decoration: none;
@@ -102,6 +106,7 @@ a {
     padding-top: 2vh;
     margin: 0 auto;
   }
+
   .title {
     font-family: var(--ff-secondary);
     border-bottom: none;
