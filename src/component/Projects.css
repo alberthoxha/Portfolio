@@ -41,8 +41,6 @@ a {
   min-height: 25vh;
 }
 
-/* .card::first-line {
-} */
 .card:hover {
   box-shadow: 0 10px 0 0 chocolate;
   transform: scale(1.02);
@@ -71,13 +69,6 @@ a {
   color: grey;
 }
 
-@media (min-width: 60em) {
-  .card.featured {
-    grid-row: span 2;
-    grid-column: span 2;
-  }
-}
-
 .descp {
   display: flex;
   font-size: 1vw;
@@ -88,4 +79,47 @@ a {
   max-width: 40vw;
   margin: 10vh auto;
   font-style: italic;
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 3vw;
+    background-color: #ffff;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+    padding: 2vw 4vw;
+    box-shadow: 0 0 0 0 black;
+    min-height: 14vw;
+  }
+  .product-grid {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 2vh;
+    margin: 0 auto;
+  }
+  .title {
+    font-family: var(--ff-secondary);
+    border-bottom: none;
+    font-size: 5vw;
+  }
+  .card h3 {
+    font-size: 1.8vh;
+    margin-top: 1vh;
+  }
+  .card p {
+    font-family: var(--ff-secondary);
+    padding-top: 1px;
+    font-size: 1.6vh;
+  }
+  .formcontainer {
+    padding-top: 0;
+  }
+  .descp {
+    display: none;
+  }
 }

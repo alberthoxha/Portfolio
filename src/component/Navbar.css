@@ -70,6 +70,9 @@
 }
 
 @media screen and (max-width: 940px) {
+  .header .navbar h2 {
+    margin-left: 2vw;
+  }
   .header {
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.9);

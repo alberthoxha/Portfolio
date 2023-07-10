@@ -63,3 +63,40 @@
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
+
+@media screen and (max-width: 940px) {
+  .form form {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    margin: 14vw auto;
+    width: 90vw;
+  }
+  .form input {
+    font-family: var(--ff-secondary);
+    padding: 3vw 0 3vw 1vw;
+    border: none;
+    border-bottom: 1px solid #888;
+    background: transparent;
+    outline: none;
+  }
+  .btn {
+    border: none;
+    font-size: large;
+    font-family: var(--ff-secondary);
+    font-weight: bold;
+    border-radius: 55px;
+    padding: 12px 32px;
+    margin: 19vh auto;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .cp-text {
+    color: grey;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 12vw;
+  }
+}

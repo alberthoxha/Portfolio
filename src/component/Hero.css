@@ -20,15 +20,18 @@
 }
 
 @media screen and (max-width: 940px) {
-  .hero .content p:nth-child(3) {
-    font-size: 2.6rem;
+  .hero .content {
+    max-width: 100%;
   }
-
-  .hero .content p:nth-child(4) {
-    font-size: 1.6rem;
+  .hero h5 {
+    font-size: 13vw;
+    line-height: 15vw;
+    margin-top: 15vw;
+  }
+  .arrow {
+    margin-top: 35vw;
   }
 }
-
 .arrow {
   display: flex;
   justify-content: center;
@@ -38,7 +41,6 @@
   position: relative;
   width: 65px;
   background: #fff;
-
   border: 2px solid black;
   border-radius: 50%;
   padding: 10px;
