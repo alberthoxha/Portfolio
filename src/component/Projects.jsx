@@ -17,7 +17,7 @@ export default function Projects() {
               <h3 className="card__lang">React JS</h3>
             </div>
 
-            <a href="https://expediz.netlify.app/">
+            <a href="https://expediz.netlify.app/" target="_blank">
               <div className="card stacked">
                 <div className="card__content">
                   <h2 className="title">Expediz</h2>
@@ -27,7 +27,7 @@ export default function Projects() {
               </div>
             </a>
 
-            <a href="https://huddle-web-app.netlify.app">
+            <a href="https://huddle-web-app.netlify.app" target="_blank" >
               <div className="card stacked">
                 <div className="card__content">
                   <h2 className="title">Huddle</h2>
@@ -39,7 +39,7 @@ export default function Projects() {
               </div>
             </a>
 
-            <a href="https://magic-memory-q8ie5xmr4-alberthoxha.vercel.app/">
+            <a href="https://magic-memory-q8ie5xmr4-alberthoxha.vercel.app/" target="_blank">
               <div className="card stacked">
                 <div className="card__content">
                   <h2 className="title">Memory Game</h2>
@@ -52,7 +52,7 @@ export default function Projects() {
               </div>
             </a>
 
-            <a href="https://magic-memory-q8ie5xmr4-alberthoxha.vercel.app/">
+            <a href="https://magic-memory-q8ie5xmr4-alberthoxha.vercel.app/" target="_blank">
               <div className="card stacked">
                 <div className="card__content">
                   <h2 className="title">Supa Smothie</h2>
