@@ -12,7 +12,11 @@ const About = () => {
           <div className="cert">
             <div className="list">
               <h2>Graduated with a bachelor`s degree in Graphic Design</h2>
-              <a href="https://www.coursera.org/account/accomplishments/certificate/C38SJR4YXHWY">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/C38SJR4YXHWY"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>
                   Html & Css in depth
                   <span>
@@ -22,7 +26,11 @@ const About = () => {
                 </p>
               </a>
 
-              <a href="https://www.coursera.org/account/accomplishments/certificate/4QS5U82U74V4">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/4QS5U82U74V4"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>
                   Version Control
                   <span>
@@ -32,7 +40,11 @@ const About = () => {
                 </p>
               </a>
 
-              <a href="https://www.coursera.org/account/accomplishments/certificate/VFTSGBMKM5P3">
+              <a
+                href="https://www.coursera.org/account/accomplishments/certificate/VFTSGBMKM5P3"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>
                   Programming with Javascript
                   <span>
