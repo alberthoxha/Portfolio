@@ -48,6 +48,9 @@
 .btn:hover {
   transform: scale(1.06);
 }
+.btn:active {
+  transform: scale(1.16);
+}
 
 .footer {
   position: absolute;
