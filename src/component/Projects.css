@@ -27,6 +27,16 @@ h1 {
   grid-row: span 2;
   grid-column: span 2;
 }
+.card.featured img {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  max-width: 23vw;
+  margin: 0 auto;
+}
+.card.featured h3 {
+  margin-top: 0;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -105,6 +115,9 @@ a {
     gap: 2vh;
     padding-top: 2vh;
     margin: 0 auto;
+  }
+  .card.featured img {
+    display: none;
   }
 
   .title {

@@ -84,10 +84,18 @@ const NavBar = () => {
           </li>
 
           <span className="social">
-            <a href="https://www.linkedin.com/in/alberthooxha">
+            <a
+              href="https://www.linkedin.com/in/alberthooxha"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin id="linkedin" size={30} color="#ffff" />
             </a>
-            <a href="https://github.com/alberthoxha">
+            <a
+              href="https://github.com/alberthoxha"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FaGithubSquare id="github" size={30} color="#ffff" />
             </a>

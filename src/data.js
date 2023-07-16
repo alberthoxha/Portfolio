@@ -43,17 +43,14 @@ export const skills = [
     id: 8,
     title: "Material UI",
   },
-  {
-    id: 9,
-    title: "Typescript",
-  },
+
   {
     id: 10,
     title: "Git",
   },
   {
     id: 11,
-    title: "Mocha JS",
+    title: "Github",
   },
   {
     id: 12,
